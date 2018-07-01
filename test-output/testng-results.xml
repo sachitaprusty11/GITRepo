@@ -1,97 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7487" started-at="2018-06-30T21:05:49Z" finished-at="2018-06-30T21:05:56Z">
+  <suite name="Default suite" duration-ms="31283" started-at="2018-07-01T17:02:29Z" finished-at="2018-07-01T17:03:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7487" started-at="2018-06-30T21:05:49Z" finished-at="2018-06-30T21:05:56Z">
+    <test name="Default test" duration-ms="31283" started-at="2018-07-01T17:02:29Z" finished-at="2018-07-01T17:03:00Z">
       <class name="SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept">
-        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11]" name="setup" is-config="true" duration-ms="390" started-at="2018-07-01T02:35:49Z" finished-at="2018-07-01T02:35:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11]" name="setup" is-config="true" duration-ms="394" started-at="2018-07-01T22:32:29Z" finished-at="2018-07-01T22:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="login()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11]" name="login" duration-ms="6655" started-at="2018-07-01T02:35:49Z" finished-at="2018-07-01T02:35:56Z">
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept.login(TestNGConcept.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
+        <test-method status="PASS" signature="login()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11]" name="login" duration-ms="27803" started-at="2018-07-01T22:32:30Z" finished-at="2018-07-01T22:32:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-07-01T02:35:56Z" finished-at="2018-07-01T02:35:56Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11]" name="tearDown" is-config="true" duration-ms="3042" started-at="2018-07-01T22:32:57Z" finished-at="2018-07-01T22:33:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=FAILURE method=TestNGConcept.login()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestNGConcept.login()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@482f8f11] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept.tearDown(TestNGConcept.java:63)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
