@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept" duration-ms="63898" started-at="2018-07-01T17:18:04Z" finished-at="2018-07-01T17:19:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="63898" started-at="2018-07-01T17:18:04Z" finished-at="2018-07-01T17:19:08Z">
+      <class name="SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@4411d970]" name="setup" is-config="true" duration-ms="1325" started-at="2018-07-01T22:48:04Z" finished-at="2018-07-01T22:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@4411d970]" name="login" duration-ms="56574" started-at="2018-07-01T22:48:06Z" finished-at="2018-07-01T22:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@4411d970]" name="tearDown" is-config="true" duration-ms="5916" started-at="2018-07-01T22:49:02Z" finished-at="2018-07-01T22:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestNGConcept.login()[pri:0, instance:SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept@4411d970] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept -->
+    </test> <!-- Command line test -->
+  </suite> <!-- SeleniumFirstProject.SeleniumWDFirstProject.TestNGConcept -->
+</testng-results>
