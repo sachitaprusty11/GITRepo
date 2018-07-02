@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumFirstProject.SeleniumWDFirstProject.ExceptionTimeOutTest">
+      <class name="SeleniumFirstProject.SeleniumWDFirstProject.DataDrivenWithIntegerType">
         <methods>
-          <include name="NoFormatexceptionTest"/>
+          <include name="gmailLogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- SeleniumFirstProject.SeleniumWDFirstProject.ExceptionTimeOutTest -->
+      </class> <!-- SeleniumFirstProject.SeleniumWDFirstProject.DataDrivenWithIntegerType -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
